@@ -15,6 +15,8 @@ This project is designed to predict the categories of the articles based on the 
 ## Achievement and limitation of this model
 Due to the time contrainsts, the model is not perfectly trained.  However, this model has already achieved an accuracy of 91% and F1 Score of 0.88.  Future work will be required to modify and improve the model to achieve higher accuracy.
 
+It is important to note that F1-score is not a good metric for multi-class classification, because it is sensitive to the imbalance in class distribution.  Hence, this model has used the macro-average F1-score.
+
 ## Citation
 Source: GitHub - https://raw.gitubusercontent.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/master/bbc-text.csv.
 
